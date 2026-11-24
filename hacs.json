@@ -1,6 +1,6 @@
 {
   "name": "Rockstar & Leonida Companion",
-  "homeassistant": "2026.11.0",
+  "homeassistant": "2026.11.3",
   "render_readme": true,
   "zip_release": true,
   "filename": "rockstar_companion.zip"
