@@ -1,0 +1,34 @@
+sync_now:
+  fields: {}
+
+unlock_achievement:
+  fields:
+    achievement_id:
+      required: true
+      example: "a_long_road"
+      selector:
+        text:
+    source:
+      required: false
+      default: "service"
+      selector:
+        text:
+
+set_checklist_progress:
+  fields:
+    item_id:
+      required: true
+      example: "stunts"
+      selector:
+        text:
+    value:
+      required: true
+      example: 250
+      selector:
+        number:
+          min: 0
+          max: 250000
+          mode: box
+
+export_progress:
+  fields: {}

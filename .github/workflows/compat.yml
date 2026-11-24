@@ -32,8 +32,8 @@ jobs:
       - uses: actions/checkout@v7
         with:
           repository: seb5594/hass-workflows
-          ref: main
-          token: ${{ secrets.ORCHESTRATION_PAT }}
+          ref: 378c8fdf522a8709707b65fa386a5e5994a73156
+          token: ${{ secrets.ORCHESTRATION_PAT || github.token }}
           path: .engine
           persist-credentials: false
       - id: releases
@@ -56,8 +56,8 @@ jobs:
       - uses: actions/checkout@v7
         with:
           repository: seb5594/hass-workflows
-          ref: main
-          token: ${{ secrets.ORCHESTRATION_PAT }}
+          ref: 378c8fdf522a8709707b65fa386a5e5994a73156
+          token: ${{ secrets.ORCHESTRATION_PAT || github.token }}
           path: .engine
           persist-credentials: false
       - uses: ./.engine/.actions/ha-test
@@ -77,8 +77,8 @@ jobs:
       - uses: actions/checkout@v7
         with:
           repository: seb5594/hass-workflows
-          ref: main
-          token: ${{ secrets.ORCHESTRATION_PAT }}
+          ref: 378c8fdf522a8709707b65fa386a5e5994a73156
+          token: ${{ secrets.ORCHESTRATION_PAT || github.token }}
           path: .engine
           persist-credentials: false
       - uses: actions/download-artifact@v8
