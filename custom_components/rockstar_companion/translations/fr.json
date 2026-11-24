@@ -1,0 +1,280 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Rockstar & Leonida Companion",
+        "description": "Suivez votre progression dans GTA VI et associez vos entités de jeu pour détecter vos sessions.",
+        "data": {
+          "linked_entries": "Associer des intégrations de jeu spécifiques",
+          "auto_discover": "Détecter automatiquement les intégrations de jeu si aucune n’est sélectionnée",
+          "extra_entities": "Capteurs de jeu et lecteurs multimédias supplémentaires",
+          "language_mode": "Langue du catalogue"
+        },
+        "sections": {
+          "advanced_options": {
+            "name": "Protection contre les spoilers, actualisations et actualités",
+            "data": {
+              "spoiler_shield": "Masquer les trophées secrets non débloqués",
+              "auto_sync_achievements": "Importer les succès de GTA VI depuis Gaming Status",
+              "scan_interval": "Intervalle d’actualisation",
+              "newswire_url": "URL facultative du flux Newswire (RSS, Atom ou JSON)",
+              "gaming_status_player": "Nom du joueur dans Gaming Status (facultatif)"
+            }
+          }
+        }
+      },
+      "reconfigure": {
+        "title": "Reconfigurer Rockstar & Leonida Companion",
+        "description": "Suivez votre progression dans GTA VI et associez vos entités de jeu pour détecter vos sessions.",
+        "data": {
+          "linked_entries": "Associer des intégrations de jeu spécifiques",
+          "auto_discover": "Détecter automatiquement les intégrations de jeu si aucune n’est sélectionnée",
+          "extra_entities": "Capteurs de jeu et lecteurs multimédias supplémentaires",
+          "language_mode": "Langue du catalogue"
+        },
+        "sections": {
+          "advanced_options": {
+            "name": "Protection contre les spoilers, actualisations et actualités",
+            "data": {
+              "spoiler_shield": "Masquer les trophées secrets non débloqués",
+              "auto_sync_achievements": "Importer les succès de GTA VI depuis Gaming Status",
+              "scan_interval": "Intervalle d’actualisation",
+              "newswire_url": "URL facultative du flux Newswire (RSS, Atom ou JSON)",
+              "gaming_status_player": "Nom du joueur dans Gaming Status (facultatif)"
+            }
+          }
+        }
+      }
+    },
+    "error": {
+      "invalid_feed_url": "Saisissez une URL HTTP ou HTTPS du flux avec un nom d’hôte."
+    },
+    "abort": {
+      "already_configured": "Rockstar & Leonida Companion est déjà configuré.",
+      "reconfigure_successful": "Configuration enregistrée."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Options de Rockstar & Leonida Companion",
+        "description": "Suivez votre progression dans GTA VI et associez vos entités de jeu pour détecter vos sessions.",
+        "data": {
+          "linked_entries": "Associer des intégrations de jeu spécifiques",
+          "auto_discover": "Détecter automatiquement les intégrations de jeu si aucune n’est sélectionnée",
+          "extra_entities": "Capteurs de jeu et lecteurs multimédias supplémentaires",
+          "language_mode": "Langue du catalogue"
+        },
+        "sections": {
+          "advanced_options": {
+            "name": "Protection contre les spoilers, actualisations et actualités",
+            "data": {
+              "spoiler_shield": "Masquer les trophées secrets non débloqués",
+              "auto_sync_achievements": "Importer les succès de GTA VI depuis Gaming Status",
+              "scan_interval": "Intervalle d’actualisation",
+              "newswire_url": "URL facultative du flux Newswire (RSS, Atom ou JSON)",
+              "gaming_status_player": "Nom du joueur dans Gaming Status (facultatif)"
+            }
+          }
+        }
+      }
+    },
+    "error": {
+      "invalid_feed_url": "Saisissez une URL HTTP ou HTTPS du flux avec un nom d’hôte."
+    }
+  },
+  "selector": {
+    "language_mode": {
+      "options": {
+        "auto": "Automatique",
+        "en": "English",
+        "de": "Deutsch",
+        "es": "Español",
+        "fr": "Français",
+        "it": "Italiano",
+        "pt-BR": "Português (Brasil)"
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "active_platform": {
+        "name": "Plateforme active",
+        "state": {
+          "idle": "Inactif",
+          "ps5": "PlayStation 5",
+          "ps4": "PlayStation 4",
+          "psn": "PlayStation Network",
+          "xbox": "Xbox",
+          "pc": "PC",
+          "custom": "Source personnalisée",
+          "multi": "Plusieurs plateformes"
+        }
+      },
+      "now_playing": {
+        "name": "Jeu en cours"
+      },
+      "active_sources_count": {
+        "name": "Sources de jeu associées"
+      },
+      "total_playtime_hours": {
+        "name": "Temps de jeu total enregistré"
+      },
+      "current_session_minutes": {
+        "name": "Durée de la session actuelle"
+      },
+      "latest_newswire": {
+        "name": "Dernière actualité de Rockstar Newswire"
+      },
+      "gta6_completion_percent": {
+        "name": "Progression vers 100 %"
+      },
+      "gta6_trophies_unlocked": {
+        "name": "Trophées et succès débloqués"
+      },
+      "gta6_gamerscore_earned": {
+        "name": "Gamerscore de GTA VI"
+      },
+      "gta6_latest_achievement": {
+        "name": "Dernier succès débloqué"
+      },
+      "gta6_eta_100_hours": {
+        "name": "Heures estimées avant 100 %"
+      }
+    },
+    "binary_sensor": {
+      "is_playing_rockstar": {
+        "name": "Jeu Rockstar actif"
+      },
+      "is_installed_ps5": {
+        "name": "GTA VI installé sur PS5"
+      },
+      "gta6_platinum_ready": {
+        "name": "Prêt pour le platine ou le mythique"
+      },
+      "is_playing_gta6": {
+        "name": "GTA VI actif"
+      }
+    },
+    "todo": {
+      "gta6_100_checklist": {
+        "name": "Liste des objectifs pour les 100 % de GTA VI"
+      },
+      "gta6_trophy_list": {
+        "name": "Trophées et succès de GTA VI"
+      }
+    },
+    "number": {
+      "story_missions_completed": {
+        "name": "Missions principales terminées"
+      }
+    },
+    "switch": {
+      "spoiler_shield": {
+        "name": "Protection contre les spoilers"
+      },
+      "auto_sync_achievements": {
+        "name": "Importer les événements de succès"
+      }
+    },
+    "button": {
+      "sync_integrations": {
+        "name": "Actualiser les sources de jeu"
+      },
+      "reset_session_timer": {
+        "name": "Réinitialiser la durée de la session"
+      }
+    },
+    "select": {
+      "catalog_language": {
+        "name": "Langue du catalogue",
+        "state": {
+          "auto": "Automatique",
+          "en": "English",
+          "de": "Deutsch",
+          "es": "Español",
+          "fr": "Français",
+          "it": "Italiano",
+          "pt-BR": "Português (Brasil)"
+        }
+      }
+    },
+    "event": {
+      "game_lifecycle": {
+        "name": "Activité de jeu",
+        "state_attributes": {
+          "event_type": {
+            "state": {
+              "game_started": "Jeu démarré",
+              "game_stopped": "Jeu arrêté",
+              "platform_switched": "Plateforme changée"
+            }
+          }
+        }
+      },
+      "achievement_events": {
+        "name": "Activité des succès",
+        "state_attributes": {
+          "event_type": {
+            "state": {
+              "achievement_unlocked": "Succès débloqué",
+              "milestone_reached": "Objectif terminé"
+            }
+          }
+        }
+      }
+    }
+  },
+  "services": {
+    "sync_now": {
+      "name": "Actualiser les sources associées",
+      "description": "Actualise l’activité de jeu et le flux Newswire facultatif."
+    },
+    "unlock_achievement": {
+      "name": "Marquer un trophée ou un succès comme débloqué",
+      "description": "Enregistre un succès de GTA VI et émet un événement.",
+      "fields": {
+        "achievement_id": {
+          "name": "Code du succès",
+          "description": "Identifiant du catalogue, par exemple a_long_road."
+        },
+        "source": {
+          "name": "Source",
+          "description": "Nom de l’automatisation ou de la source qui a enregistré le succès."
+        }
+      }
+    },
+    "set_checklist_progress": {
+      "name": "Définir la progression d’un objectif",
+      "description": "Met à jour le compteur ou le montant d’un objectif.",
+      "fields": {
+        "item_id": {
+          "name": "Identifiant de l’objectif",
+          "description": "Identifiant du catalogue, par exemple stunts ou vaults_hit."
+        },
+        "value": {
+          "name": "Progression",
+          "description": "Nombre actuel ou montant en dollars GTA."
+        }
+      }
+    },
+    "export_progress": {
+      "name": "Exporter une sauvegarde de la progression",
+      "description": "Enregistre rockstar_companion_progress.json dans le dossier de configuration de Home Assistant."
+    }
+  },
+  "exceptions": {
+    "no_entry": {
+      "message": "Configurez d’abord l’intégration."
+    },
+    "unknown_achievement": {
+      "message": "Code du succès inconnu."
+    },
+    "unknown_checklist_item": {
+      "message": "Identifiant d’objectif inconnu."
+    },
+    "unload_failed": {
+      "message": "Impossible de décharger les plateformes d’entités."
+    }
+  }
+}

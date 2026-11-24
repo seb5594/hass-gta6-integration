@@ -1,0 +1,18 @@
+{
+  "domain": "rockstar_companion",
+  "name": "Rockstar & Leonida Companion",
+  "after_dependencies": [
+    "playstation_network",
+    "ps4",
+    "steam_online",
+    "xbox"
+  ],
+  "codeowners": ["@seb5594"],
+  "config_flow": true,
+  "documentation": "https://github.com/seb5594/hass-gta6-integration",
+  "integration_type": "hub",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/seb5594/hass-gta6-integration/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}
