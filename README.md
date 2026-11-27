@@ -3,7 +3,7 @@
 
 <p align="center">
   <a href="https://my.home-assistant.io/redirect/hacs_repository/?owner=seb5594&amp;repository=hass-gta6-integration&amp;category=integration"><img src="https://img.shields.io/static/v1?label=HACS%20%C2%B7%20Marketplace&amp;message=Add%20integration&amp;color=41BDF5&amp;logo=homeassistantcommunitystore&amp;logoColor=white&amp;style=for-the-badge" alt="HACS · Marketplace" height="28"></a>
-  <a href="https://github.com/seb5594/hass-gta6-integration/actions/workflows/compat.yml"><img src="https://img.shields.io/static/v1?label=home%20assistant&amp;message=%E2%89%A5%202026.11.0&amp;color=1877A5&amp;style=for-the-badge" alt="home assistant" height="28"></a><br>
+  <a href="https://github.com/seb5594/hass-gta6-integration/actions/workflows/compat.yml"><img src="https://img.shields.io/static/v1?label=home%20assistant&amp;message=%E2%89%A5%202026.11.3&amp;color=1877A5&amp;style=for-the-badge" alt="home assistant" height="28"></a><br>
   <a href="https://github.com/seb5594/hass-gta6-integration/releases/tag/v0.1.0"><img src="https://img.shields.io/static/v1?label=integration%20version&amp;message=0.1.0&amp;color=1877A5&amp;style=for-the-badge" alt="integration version" height="28"></a>
   <a href="https://github.com/seb5594/hass-gta6-integration/releases"><img src="https://img.shields.io/github/downloads/seb5594/hass-gta6-integration/v0.1.0/total?label=downloads&amp;color=1877A5&amp;style=for-the-badge" alt="downloads" height="28"></a><br>
   <a href="https://github.com/seb5594/hass-gta6-integration/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/seb5594/hass-gta6-integration/ci.yml?branch=main&amp;label=checks&amp;style=flat" alt="checks" height="20"></a>
